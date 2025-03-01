@@ -38,7 +38,7 @@ header {
 }
 
 .Desketop-menu {
-    position: sticky;
+
     top: 0;
     width: 100% !important;
     display: flex;
@@ -153,6 +153,68 @@ header {
     display: none;
 }
 
+.hero-section {
+    width: 100%;
+    height: 60vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.title-section h4 {
+    color: #ed563b;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.title-section h3 {
+    font-size: 1.3rem;
+}
+
+.hero-service {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.icons i {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgba(250, 250, 250, 0.1);
+    padding: 25px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: #ed563b;
+}
+
+
+.icons i:hover {
+    background-color: #ed563b;
+    color: #fff;
+}
+
+.text-service {
+    margin-top: 2rem;
+}
+
+.text-service h3 {
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.text-service p {
+    color: gray;
+}
 
 @media(max-width: 780px) {
     .Desketop-menu {
@@ -381,5 +443,13 @@ header {
     .grid-box_1 {
         max-width: inherit;
 
+    }
+
+    .hero-section {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        color: #fff;
+        overflow: hidden;
     }
 }
